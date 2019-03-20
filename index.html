@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+ <head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="css/style.css">
+  <script src="script.js"></script>
+  <title>Тестовое задание</title>
+ </head>
+ <body>
+  <div class="task">
+    <div class="title">Выбери все уравнения, <br> в которых решением является число 6</div>
+    <table class="options"> 
+        <tbody>
+            <tr>
+                <td class="option" id="opt1" onclick="check(this)">5 + x = 11</td>
+                <td class="option" id="opt2" onclick="check(this)">16 - x = 12</td>
+                <td class="option" id="opt3" onclick="check(this)">x + 5 = 11</td>
+                <td class="option" id="opt4" onclick="check(this)">x - 16 = 12</td>
+            </tr>
+        </tbody> 
+    </table>
+    <div id="hint" hidden> Вычисли x </div>
+    <button id="button" disabled> Готово </button>
+  </div>
+ </body>
+</html>
